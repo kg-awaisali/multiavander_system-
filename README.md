@@ -24,8 +24,9 @@
 
 - **Framework**: [Flutter](https://flutter.dev/) (v3.10.4+)
 - **State Management**: [GetX](https://pub.dev/packages/get)
-- **Backend/Database**: [Firebase (Firestore)](https://firebase.google.com/)
-- **Authentication**: Firebase Auth
+- **Primary Backend**: REST API hosted on custom domain (`codegeeks.easycode4u.com`)
+- **Real-time Data**: [Firebase (Firestore)](https://firebase.google.com/) - *Used for Chat and real-time sync.*
+- **Authentication**: Firebase Auth & Custom API Auth
 - **Storage**: GetStorage & Shared Preferences
 - **Styling**: Google Fonts & Custom Theme Engine
 
