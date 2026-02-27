@@ -1,0 +1,49 @@
+{
+  "project_info": {
+    "project_number": "534906906908",
+    "firebase_url": "https://signup-df4fb-default-rtdb.firebaseio.com",
+    "project_id": "signup-df4fb",
+    "storage_bucket": "signup-df4fb.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:534906906908:android:dc9c07ce83f0c6bbcb72d9",
+        "android_client_info": {
+          "package_name": "com.example.jutt"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDVNY1qgRyr4s3V3FtHlwf_6024zDPJ-mQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:534906906908:android:429c3db0998b1844cb72d9",
+        "android_client_info": {
+          "package_name": "com.zbardast.ecommerce.flutter_ecommerce_app"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDVNY1qgRyr4s3V3FtHlwf_6024zDPJ-mQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

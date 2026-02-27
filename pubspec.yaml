@@ -1,0 +1,54 @@
+name: smart_shop  
+description: Smart Shop - Your Shopping App  
+
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.10.4
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.8
+  get: ^4.6.6
+  http: ^1.6.0
+  google_fonts: ^6.1.0
+  shared_preferences: ^2.2.2
+  intl: ^0.19.0
+  cached_network_image: ^3.3.0
+  image_picker: ^1.2.1
+  get_storage: ^2.1.1
+  collection: ^1.18.0
+  shimmer: ^3.0.0
+  firebase_core: ^4.3.0
+  cloud_firestore: ^6.1.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^6.0.0
+  flutter_launcher_icons: ^0.13.1
+
+# Correct flutter_launcher_icons configuration
+flutter_icons:
+  android: true
+  ios: true
+  image_path: "assets/images/app_logo.png"
+  adaptive_icon_background: "#FFFFFF"
+  adaptive_icon_foreground: "assets/images/app_logo.png"
+  remove_alpha_ios: true
+  min_sdk_android: 21
+  web:
+    generate: true
+    image_path: "assets/images/app_logo.png"
+    background_color: "#FFFFFF"
+    theme_color: "#007AFF"
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/images/app_logo.png
+    - assets/images/launcher_icon.png
